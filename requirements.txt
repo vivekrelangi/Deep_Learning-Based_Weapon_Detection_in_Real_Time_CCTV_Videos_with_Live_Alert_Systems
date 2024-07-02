@@ -1,2 +1,2 @@
-Install python module used in this project(flask,flask-pymongo,bcrypt,ultralytics,etc.,.)
+Install python module used in this project(flask,flask-pymongo,numpy,cv2,smtplib,email,twilio,bcrypt,ultralytics,etc.,.)
 Install MongoDB(Documents will store username and password so create a collection and db to store them)
