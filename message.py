@@ -2,7 +2,7 @@ from twilio.rest import Client
 from password import twilioauth,twiliosid
 
 def mes():
-    account_sid = 
+    account_sid = twiliosid
     auth_token = twilioauth
     client = Client(account_sid, auth_token)
 
