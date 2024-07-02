@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html><center>
+<head>
+    <title>Weapon Detection</title>
+    <!--<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='home.css')}}"-->
+</head>
+<body>
+    <h1>Weapon Detection</h1>
+    <h2>Welcome, {{ username }}!</h2><br><br>
+    <a href="{{ url_for('livedet') }}">Click Here for Live Weapon Detection</a><br><br>
+    <form method="post" action="{{ url_for('offlinedet') }}" enctype="multipart/form-data">
+        <label for="filepath">Give filepath for image or video for offline detection:</label>
+        <input id="filepath" name="filepath" type="txt"><br><br>
+        <button type="submit">Submit</button><br><br>
+    </form>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</center></html>
