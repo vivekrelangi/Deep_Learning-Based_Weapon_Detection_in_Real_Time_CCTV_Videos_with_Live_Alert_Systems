@@ -3,4 +3,4 @@ The project is a deep learning-based system for real-time weapon detection in CC
 
 Dowload dataset, pretrained model(model trained using yolov3), config file and model built using yolov8(hk2.onnx) from /home/ghostprime/Downloads/Backup-20240524T060203Z-001/Backup/yolobackup/FinalYearProject/WEPDET/weapon_detection/yolov8onnxwd.py
 
-Note:webappwithlogin.py detects using model built using yolov3, yolov8onnxwd.py detects using model built using yolov8 and store passwords and accountnames of twilio and gmail accounts in password.py(create this file 
+Note:create css files for html pages, webappwithlogin.py detects using model built using yolov3, yolov8onnxwd.py detects using model built using yolov8 and store passwords and accountnames of twilio and gmail accounts in password.py(create this file 
